@@ -12,7 +12,7 @@ import time
 
 
 def write_hist_data():
-	S = McxNowSession('yungcrypt', 'n0t3ncrypted')
+	S = McxNowSession('username', 'password')
 	cur = raw_input('what currency are we working with?: ')
 
 	cur_history = S.GetCurrencyHistoryOrders(cur)
